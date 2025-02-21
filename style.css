@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(30,39,60,1) 0%, rgba(51,60,152,1) 100%  );
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+main h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.type{
+    font-weight: 200;
+    font-size: 30px;
+}
+.redes{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.gapSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.social-links img{
+    width: 3.7rem;
+    filter: invert(1) grayscale(1);
+      
+}
+a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.social-links p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    
+
+    main h1{
+        font-size: 30px;
+    }
+    .type{
+        font-size: 24px;
+    }
+    .redes{
+        font-size: 24px;
+    }
+    .social-links img{
+        width: 2.5rem;
+    }
+}
